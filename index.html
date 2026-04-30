@@ -354,6 +354,19 @@
   .methodology-card a { color: var(--accent); text-decoration: none; }
   .methodology-card a:hover { text-decoration: underline; }
 
+  .disclaimer {
+    max-width: 800px;
+    margin: 0 auto 60px;
+    padding: 20px 32px;
+    font-size: 12px;
+    line-height: 1.7;
+    color: var(--text-muted);
+  }
+  .disclaimer p { margin: 0 0 10px; }
+  .disclaimer p:last-child { margin-bottom: 0; }
+  .disclaimer a { color: var(--accent); text-decoration: none; }
+  .disclaimer a:hover { text-decoration: underline; }
+
   /* ─── Chart containers ─── */
   [id^="tab-overview"] p { color: var(--text-secondary); }
   [id^="tab-overview"] h3 { color: var(--text-secondary); }
@@ -3532,6 +3545,11 @@ Plotly.newPlot("5db2b046", [
     <span >Data</span>
     <span>All data is publicly available on Instagram. No private or restricted information was used.</span>
   </div>
+</div>
+
+<div class="disclaimer">
+  <p>This dashboard was built by Apify to show what's possible with public Instagram data. It covers AI and tech creators, using publicly available profile and engagement data collected on 31 March 2026 with Actors available in Apify Store.</p>
+  <p>If you are one of the featured creators and do not wish to be listed on the dashboard, you can request removal at any time &mdash; just email <a href="mailto:privacy@apify.com">privacy@apify.com</a>.</p>
 </div>
 
 </div>
